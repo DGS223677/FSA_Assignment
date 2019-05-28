@@ -1,14 +1,14 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ViewTaskComponent } from './view-task.component';
-
+import{AppModule} from 'src/app/app.module';
 describe('ViewTaskComponent', () => {
   let component: ViewTaskComponent;
   let fixture: ComponentFixture<ViewTaskComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ViewTaskComponent ]
+      declarations: [  ],imports:[AppModule]
     })
     .compileComponents();
   }));
