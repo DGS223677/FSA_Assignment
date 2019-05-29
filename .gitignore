@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/ServerCode/ProjectManager/ProjectManager/obj
+/ServerCode/ProjectManager/ProjectManager.Tests
+/223677_Project_Manager_Setup_Document.docx

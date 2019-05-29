@@ -1,0 +1,47 @@
+Executing Benchmarks in C:\Users\Administrator\Source\Repos\FSA_Assignment\ServerCode\ProjectManager\PerformanceTests\bin\Release\PerformanceTests.dll
+------------ STARTING PerformanceTests.TaskPerfTests+PerformanceTests ---------- 
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.9844095
+Elapsed Time - ms: 985.00 ,ms: /s 1,000.60 , ns / ms: 999,400.51
+TotalBytesAllocated - bytes: 6,431,704.00 ,bytes: /s 6,533,565.55 , ns / bytes: 153.06
+TotalCollections [Gen2] - collections: 0.00 ,collections: /s 0.00 , ns / collections: 984,409,500.00
+[Counter] TestCounter - operations: 0.00 ,operations: /s 0.00 , ns / operations: 984,409,500.00
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:01.1517145
+Elapsed Time - ms: 1,152.00 ,ms: /s 1,000.25 , ns / ms: 999,752.17
+TotalBytesAllocated - bytes: 6,429,560.00 ,bytes: /s 5,582,598.81 , ns / bytes: 179.13
+TotalCollections [Gen2] - collections: 0.00 ,collections: /s 0.00 , ns / collections: 1,151,714,500.00
+[Counter] TestCounter - operations: 0.00 ,operations: /s 0.00 , ns / operations: 1,151,714,500.00
+--------------- END RUN ---------------
+
+--------------- BEGIN RUN ---------------
+Elapsed: 00:00:00.8282122
+Elapsed Time - ms: 829.00 ,ms: /s 1,000.95 , ns / ms: 999,049.70
+TotalBytesAllocated - bytes: 6,428,664.00 ,bytes: /s 7,762,097.68 , ns / bytes: 128.83
+TotalCollections [Gen2] - collections: 0.00 ,collections: /s 0.00 , ns / collections: 828,212,200.00
+[Counter] TestCounter - operations: 0.00 ,operations: /s 0.00 , ns / operations: 828,212,200.00
+--------------- END RUN ---------------
+
+--------------- RESULTS: PerformanceTests.TaskPerfTests+PerformanceTests ---------------
+--------------- DATA ---------------
+Elapsed Time: Max: 1,152.00 ms, Average: 988.67 ms, Min: 829.00 ms, StdDev: 161.53 ms
+Elapsed Time: Max / s: 1,000.95 ms, Average / s: 1,000.60 ms, Min / s: 1,000.25 ms, StdDev / s: 0.35 ms
+
+TotalBytesAllocated: Max: 6,431,704.00 bytes, Average: 6,429,976.00 bytes, Min: 6,428,664.00 bytes, StdDev: 1,562.11 bytes
+TotalBytesAllocated: Max / s: 7,762,097.68 bytes, Average / s: 6,626,087.35 bytes, Min / s: 5,582,598.81 bytes, StdDev / s: 1,092,691.19 bytes
+
+TotalCollections [Gen2]: Max: 0.00 collections, Average: 0.00 collections, Min: 0.00 collections, StdDev: 0.00 collections
+TotalCollections [Gen2]: Max / s: 0.00 collections, Average / s: 0.00 collections, Min / s: 0.00 collections, StdDev / s: 0.00 collections
+
+[Counter] TestCounter: Max: 0.00 operations, Average: 0.00 operations, Min: 0.00 operations, StdDev: 0.00 operations
+[Counter] TestCounter: Max / s: 0.00 operations, Average / s: 0.00 operations, Min / s: 0.00 operations, StdDev / s: 0.00 operations
+
+--------------- ASSERTIONS ---------------
+[PASS] Expected Elapsed Time to must be less than or equal to 5,000.00 ms; actual value was 988.67 ms.
+[PASS] Expected [Counter] TestCounter to must be greater than or equal to 0.00 operations; actual value was 0.00 operations.
+[PASS] Expected TotalBytesAllocated to must be greater than or equal to 65,536.00 bytes; actual value was 6,429,976.00 bytes.
+[PASS] Expected TotalCollections [Gen2] to must be less than or equal to 0.00 collections; actual value was 0.00 collections.
+
+------------ FINISHED PerformanceTests.TaskPerfTests+PerformanceTests ---------- 
